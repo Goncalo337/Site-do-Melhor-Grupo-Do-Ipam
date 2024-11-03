@@ -1,0 +1,250 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 0; /* Coloca o logotipo bem encostado à esquerda */
+    margin-left: 10px; /* Adiciona margem se quiseres uma ligeira distância da borda */
+    width: 120px; /* Tamanho do logotipo (ajusta conforme necessário) */
+    height: auto;
+}
+
+
+.conteudo-central {
+    text-align: center;
+}
+
+header h1, header h2 {
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ff6600;
+    /* Laranja */
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd1b3;
+    /* Laranja claro */
+}
+
+section {
+    padding: 2rem;
+    max-width: 900 px;
+    margin: 0 auto;
+}
+
+section h2 {
+    color: #ff6600;
+    /* Laranja */
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+article {
+    background-color: #fff5e6;
+    /* Fundo laranja claro */
+    margin-bottom: 1.5rem;
+    border-left: 5px solid #ff6600;
+    /* Laranja */
+    border-radius: 5px;
+    width: 80%; /* Define a largura dos artigos como 80% do contêiner. Podes ajustar para qualquer valor menor, como 70%, 60%, etc. */
+    max-width: 980px; /* Define uma largura máxima para que os artigos não fiquem demasiado largos em telas grandes. Ajusta conforme desejado. */
+    margin: 0 auto; /* Centraliza o artigo */
+    padding: 20px; /* Adiciona espaço em torno do conteúdo do artigo */
+    box-sizing: border-box; /* Inclui o padding dentro da largura total do artigo */
+
+}
+
+article + article {
+    margin-top: 50px; /* Define um espaçamento entre artigos especificamente */
+}
+
+
+article h3 {
+    color: #ff6600;
+    /* Laranja */
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+
+article p {
+    color: #333333;
+    margin-bottom: 1rem;
+}
+
+article ul {
+    margin-left: 1.5rem;
+    color: #333333;
+}
+
+article ul li {
+    list-style-type: disc;
+}
+
+footer {
+    background-color: #ff6600;
+    /* Laranja */
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+/* Secção de Contacto */
+#contacto {
+    background-color: #fff5e6;
+    /* Laranja claro */
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #ff6600;
+    /* Laranja */
+    border-radius: 5px;
+}
+
+#contacto p {
+    color: #ff6600;
+    /* Laranja */
+    font-size: 1.1rem;
+}
+
+/* estilos.css */
+
+/* Estilo para rodapés de artigos */
+.article-footer {
+    text-align: right;
+    /* Alinha o texto à direita */
+    font-style: italic;
+    /* Torna o texto em itálico */
+    margin-top: 20px;
+    /* Espaço acima do rodapé */
+    font-size: 0.9em;
+    /* Tamanho da fonte */
+    color: rgba(85, 85, 85, 0.8);
+    /* Cor cinza com opacidade */
+    background-color: #f0f0f0;
+    /* Cor de fundo discreta para o rodapé */
+    padding: 10px;
+    /* Espaço interno do rodapé */
+    border-radius: 5px;
+    /* Bordas arredondadas */
+}
+
+.styled-table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.styled-table th {
+    
+    background-color: #008360;
+    color: white;
+    font-weight: bold;
+}
+
+.styled-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Centralizar e expandir todas as imagens, exceto a imagem com a classe logo */
+img:not(.logo) {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* Faz com que a imagem ocupe 100% da largura do contêiner */
+    max-width: 75%; /* Evita que a imagem ultrapasse o limite do contêiner */
+    height: auto; /* Mantém a proporção original da imagem */
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #e1f5fe;
+}
+
